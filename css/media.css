@@ -1,0 +1,39 @@
+@media screen and (max-width:992px) {
+    .weather {
+        flex-direction: column;
+    }
+
+    .weather .today-weather {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .weather .other-day {
+        width: 100%;
+    }
+
+    .weather .other-day:nth-child(odd) {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .icon {
+        width: 20%;
+    }
+
+    footer .row {
+        flex-direction: column;
+    }
+
+    footer .row .social-links {
+        padding-block: 20px;
+    }
+
+    .offset-md-1 {
+        margin-left: 0;
+    }
+
+}

@@ -1,0 +1,226 @@
+/* .............G E N E R A L..... S T A Y E L.............. */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #1E202B;
+    --secondry-color: #009AD8;
+    --white-color: #fff;
+    --bg-one: #323544;
+    --bg-two: #262936;
+}
+
+body {
+    background-color: var(--main-color);
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+/* <!-- ..................N A V..... B A R.................. --> */
+nav a img {
+    width: 50%;
+    padding-right: 20px;
+}
+
+nav a .logo .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 5px;
+}
+
+nav a .logo .blow-title {
+    font-size: 10px;
+    color: #bfc1c8;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--secondry-color);
+    border: 2px solid var(--secondry-color);
+    border-radius: 50px;
+}
+
+.navbar-nav a {
+    margin-right: 40px;
+    color: var(--white-color);
+    text-align: center;
+    padding-block: 5px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.navbar-nav a:hover {
+    color: var(--secondry-color);
+    border: 2px solid var(--secondry-color);
+    border-radius: 50px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: 2px solid transparent;
+    border-radius: 45%;
+    padding: 20px;
+    color: var(--white-color);
+    transition: all 0.5s ease;
+}
+
+.navbar-toggler:hover {
+    border: 2px solid var(--secondry-color);
+    color: var(--secondry-color);
+}
+/* <!-- ..................H O M E..... S E C T I O N.................. --> */
+#home {
+    background-image: url(../imgs/banner.png);
+    background-size: 142%;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    margin-block: 40px;
+}
+
+input {
+    color: var(--white-color);
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+#search,
+.sub-text {
+    background-color: #1E202B;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+#find,
+.Subscribe {
+    background-color: var(--secondry-color);
+    padding: 12px 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    color: var(--white-color);
+}
+
+.bg-one {
+    background-color: var(--bg-one);
+}
+
+.today-weather,
+.other-day {
+    width: 33.33333%;
+}
+
+.body {
+    text-align: left;
+    padding-block: 30px;
+}
+
+.city {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.deg {
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-right: 30px;
+}
+
+.text-color {
+    color: var(--secondry-color);
+}
+
+
+.icon {
+    width: 30%;
+}
+
+.day-info {
+    padding-block: 20px;
+}
+
+.other-deg-max {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.other-deg-min{
+    font-size: 16px;
+}
+
+.other-icon {
+    margin-bottom: 20px;
+    width: 15%;
+}
+
+.weather .other-day:nth-child(even) {
+    background-color: var(--bg-two);
+}
+
+.weather .other-day:nth-child(odd) {
+    background-color: var(--bg-one);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.weather .today-weather {
+    background-color: var(--bg-one);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.head {
+    background: rgba(0, 0, 0, 0.1);
+}
+/* <!-- ..................F O O T E R.................. --> */
+footer {
+    padding: 50px 0px;
+}
+
+footer .social-links .social-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    transition: all 0.5s ease;
+}
+
+footer .social-links .social-icon:hover {
+    background-color: var(--secondry-color);
+}
+
+footer .social-links .social-icon:hover i {
+    color: var(--white-color);
+}
+
+footer .social-links a i {
+    color: var(--secondry-color);
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+footer p {
+    margin-block: 15px;
+    padding-left: 10px;
+}
+
+
